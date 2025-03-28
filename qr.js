@@ -60,15 +60,15 @@ router.get('/', async (req, res) => {
 	
 				   let MBUVI_MD_TEXT = `
 𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿*
- *𝙎𝙃𝘼𝘿𝙊𝙒 𝙓𝙏𝙀𝘾𝙃 𝙇𝙊𝙂𝙂𝙀𝘿* 
+ *𝑪𝑯𝑹𝑰𝑺𝑻 𝙏𝙀𝘾𝙃 𝑹𝑬𝑨𝑪𝑯𝑬𝑫* 
 ______________________________
 ╔════◇
 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❍ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/254759000340_
-║❍ 𝐑𝐞𝐩𝐨: _https://github.com/Black-Tappy/SHADOW-XTECH_
-║❍ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/JLVDDZLpcsk2byRMDWf0IR_
-║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10_
-║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/bright_leizer_?igsh=Y2JmcnE1ajNjZXM=
+║❍ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/254704009677_
+║❍ 𝐑𝐞𝐩𝐨: _https://github.com/Viniznimco/CHRIST-BOT
+║❍ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/FRDtAailExp6hKbQgbLBnP_
+║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vb6jFwj89ine3b7qHB1y_
+║❍ 𝐑𝐄𝐆𝐀𝐑𝐃𝐒: 𝕾𝖓𝖆𝖕𝖉𝖗𝖆𝖌𝖔𝖓💖
 ______________________________
 Don't Forget To Give Star⭐ To My Repo`
 	 await Qr_Code_By_Mbuvi_Tech.sendMessage(Qr_Code_By_Mbuvi_Tech.user.id,{text:MBUVI_MD_TEXT},{quoted:session})
