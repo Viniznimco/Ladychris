@@ -1,0 +1,22 @@
+{
+    "name": "𝐒𝐇𝐀𝐃𝐎𝐖 𝐗𝐓𝐄𝐂𝐇 Pairing",
+    "description": "𝐒𝐇𝐀𝐃𝐎𝐖 𝐗𝐓𝐄𝐂𝐇 WA bot, Created by 🅑r̸𝐢𝖌𝖍t̸_×͜×",
+    "logo": "https://i.ibb.co/3MZpcvr/2fec156e2320d733.jpg",
+    "repository": "https://github.com/Black-Tappy/shadow-xtech-pair",
+    "keywords": ["LegacyMd"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
