@@ -57,15 +57,15 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Mbuvi_Tech.sendMessage(Pair_Code_By_Mbuvi_Tech.user.id, { text: '' + b64data });
 
                let MBUVI_MD_TEXT = `
-𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿*
- *𝙎𝙃𝘼𝘿𝙊𝙒 𝙓𝙏𝙀𝘾𝙃 𝙇𝙊𝙂𝙂𝙀𝘿* 
+𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝐎𝐁𝐓𝐀𝐈𝐍𝐄𝐃*
+ *𝐂𝐇𝐑𝐈𝐒𝐓 𝙏𝙀𝘾𝙃 𝐑𝐄𝐀𝐂𝐇𝐄𝐃* 
 ______________________________
 ╔════◇
 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❍ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/254759000340_
-║❍ 𝐑𝐞𝐩𝐨: _https://github.com/Black-Tappy/SHADOW-XTECH
-║❍ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/JLVDDZLpcsk2byRMDWf0IR_
-║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10_
+║❍ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/254704009677_
+║❍ 𝐑𝐞𝐩𝐨: _https://github.com/Viniznimco/CHRIST-BOT
+║❍ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/FRDtAailExp6hKbQgbLBnP_
+║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vb6jFwj89ine3b7qHB1y_
 ║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/bright_leizer_?igsh=Y2JmcnE1ajNjZXM=
 ______________________________
 
