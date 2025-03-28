@@ -1,5 +1,5 @@
 {
-    "description": "𝐒𝐇𝐀𝐃𝐎𝐖 𝐗𝐓𝐄𝐂𝐇-sessions",
+    "description": "CHRIST TECH-sessions",
     "main": "./mbuvi.js",
   "engines" : { 
     "npm" : ">=9.7.2",
@@ -8,7 +8,7 @@
     "scripts": {
     "start": "node mbuvi.js"
   },
-  "author": "🅑r̸𝐢𝖌𝖍t̸_×͜×",
+  "author": "CHRISTINE",
   "license": "GPL-3.0 license",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.5.0",
