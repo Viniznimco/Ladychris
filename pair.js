@@ -66,7 +66,7 @@ ______________________________
 ║❍ 𝐑𝐞𝐩𝐨: _https://github.com/Viniznimco/CHRIST-BOT
 ║❍ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/FRDtAailExp6hKbQgbLBnP_
 ║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vb6jFwj89ine3b7qHB1y_
-║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/bright_leizer_?igsh=Y2JmcnE1ajNjZXM=
+║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/viniznimco?igsh=MTdmenBhMzJ3NXkwaw==
 ______________________________
 
 Don't Forget To Give Star⭐ To My Repo`
