@@ -19,10 +19,10 @@
     }
 
     @keyframes changeBackground {
-      10%, 100% { background-image: url('https://wallpapercave.com/wp/wp3764268.jpg'); }
-      25% { background-image: url('https://wallpapercave.com/uwp/uwp4398200.webp'); }
-      50% { background-image: url('https://wallpapercave.com/wp/KEwaPYO.jpg'); }
-      75% { background-image: url('https://wallpapercave.com/uwp/uwp4403209.jpeg'); }
+      10%, 100% { background-image: url('https://i.imgur.com/SJcaVXl.jpeg'); }
+      25% { background-image: url('https://i.imgur.com/0yrJJeN.jpeg'); }
+      50% { background-image: url('https://i.imgur.com/0yrJJeN.jpeg'); }
+      75% { background-image: url('https://i.imgur.com/HP6GyiD.jpeg'); }
     }
 
     .container {
@@ -152,12 +152,12 @@
         <div id="text">
           <i class="fa fa-user"></i>
           <p>
-            <h3 class="centered-text">𝙎𝙃𝘼𝘿𝙊𝙒 𝙓𝙏𝙀𝘾𝙃 𝙋𝘼𝙄𝙍𝙄𝙉𝙂 𝘾𝙊𝘿𝙀</h3>
+            <h3 class="centered-text">𝐂𝐇𝐑𝐈𝐒𝐓 𝐓𝐄𝐂𝐇 𝐏𝐀𝐈𝐑𝐈𝐍𝐆 𝐂𝐎𝐃𝐄</h3>
             <br>
-            <h6>𝙎𝙃𝘼𝘿𝙊𝙒 𝙓𝙏𝙀𝘾𝙃</h6>
+            <h6>𝐂𝐇𝐑𝐈𝐒𝐓 𝐓𝐄𝐂𝐇</h6>
             <h6>Enter Your Number with Country Code.</h6>
             <div class="input-container">
-              <input placeholder="254759000xxx" type="number" id="number" placeholder="Enter your Phone Pumber with Country Code" name="">
+              <input placeholder="25470400xxx" type="number" id="number" placeholder="Enter your Phone Pumber with Country Code" name="">
               <button id="submit">Submit</button>
             </div>
             
@@ -182,11 +182,11 @@
       let obj = document.getElementById("copy");
       await navigator.clipboard.writeText(obj.innerText.replace('CODE: ', ''));
       obj.innerText = "COPIED";
-      obj.style = "color:blue;font-weight:bold";
+      obj.style = "color:pink;font-weight:bold";
       obj.size = "5";
       setTimeout(() => {
         obj.innerText = text;
-        obj.style = "color:white;font-weight-bold";
+        obj.style = "color:yellow;font-weight-bold";
         obj.size = "5";
       }, 500);
     }
@@ -194,7 +194,7 @@
     b.addEventListener("click", async (e) => {
       e.preventDefault();
       if (!c.value) {
-        a.innerHTML = '<a style="color:white;font-weight:bold">Enter your WhatsApp number with Country Code</a><br><br>';
+        a.innerHTML = '<a style="color:green;font-weight:bold">Enter your WhatsApp number with Country Code</a><br><br>';
       } else if (c.value.replace(/[^0-9]/g, "").length < 11) {
         a.innerHTML = '<a style="color:green;font-weight:bold">Invalid Number</a><br><br>';
       } else {
@@ -215,7 +215,7 @@
         c.type = "text";
         c.value = "+" + bb;
         c.style = "color:black;font-size:20px";
-        a.innerHTML = '<a style="color:white;font-weight:bold">Please Wait...</a><br><br>';
+        a.innerHTML = '<a style="color:red;font-weight:bold">Please Wait...</a><br><br>';
         let { data } = await axios(`/code?number=${Mbuvi_Tech}`);
         let code = data.code || "Service Unavailable";
         a.innerHTML = '<font id="copy" onclick="Copy()" style="color:red;font-weight:bold" size="5">CODE: <span style="color:white;font-weight:bold">' + code + '</span></font><br><br><br>';
